@@ -97,6 +97,7 @@ h6 {
 */
 .navbar {
   padding: 0;
+  font-weight: 600;
 }
 .navbar ul {
   margin: 0;
@@ -119,7 +120,7 @@ h6 {
   justify-content: space-between;
   font-family: "Poppins", sans-serif;
   color: #1869b4;
-  font-size: 15px;
+  font-size: 1.2rem;
   padding: 0 4px;
   white-space: nowrap;
   transition: 0.3s;
