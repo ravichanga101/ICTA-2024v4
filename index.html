@@ -38,7 +38,7 @@
          /* background-image: url('./assets/img/bg.jpeg'); */
          background-color: #1869b4;
          /* height: 47vh; */
-         height: 700px;
+         
          /* overflow: scroll; */
          background-repeat: no-repeat;
          background-size: cover;
@@ -60,6 +60,12 @@
       section{
          padding: 20px 20px;
       }
+      .bg-primary{
+         background-color:#1869b4 !important;
+      }
+      .bi::before, [class^="bi-"]::before, [class*=" bi-"]::before{
+         font-weight: 900 !important;
+      }
 
    </style>
 </head>
@@ -73,26 +79,23 @@
 </script>
 
 <body>
+   
    <!-- ======= Header ======= -->
    <header id="header" class="fixed-top ">
+      
       <div class="container d-flex align-items-center justify-content-between">
+         
          <div class="d-flex align-items-center justify-content-around">
-            <!-- <a href="index.html" class="logo"><img src="./assets/img/ISC LOGO.png" alt="" class="img-fluid"></a> -->
-            <a href="index.html" >
-               <img src="assets/img/charusat_logo.png" alt="" class="img-fluid p-2" style="width: 300px;">
-            </a>
-            <a href="https://uacg.bg/?l=2" target="_blank" >
-               <img src="assets/img/UACG_logo.png" alt="" class="img-fluid " style="width: 50px;">
-            </a>
-
-            <!-- <a href="index.html" class="logo h1">ICTA 2024</a> -->
+            <a href="index.html" class="logo"><img src="./assets/img/ICTA-logo.png" alt="" class="img-fluid"></a>
+            
+            <!-- <a href="index.html" class="h2 fw-bold text-decoration-underline" style="color: #1869b4 !important;">ICTA 2024</a> -->
          </div>
          <nav id="navbar" class="navbar">
             <ul>
                <!-- <li><a class="nav-link scrollto active" href="#hero">Home</a></li> -->
                <!-- <li><a class="nav-link scrollto" href="#about">About</a></li> -->
                <li class="dropdown">
-                  <a class="nav-link scrollto " href="#hero"><span>About </span> <i class="bi bi-chevron-down"></i></a>
+                  <a class="nav-link scrollto " href="#hero"><span>About </span> <i class="bi bi-chevron-down fw-bold"></i></a>
                   <ul>
                      <li><a class="nav-link scrollto" href="#abtcharusat">CHARUSAT</a></li>
                      <!-- <li class="dropdown"><a href="#"><span>Deep Drop Down</span> <i class="bi bi-chevron-right"></i></a>
@@ -113,11 +116,13 @@
                   <ul>
                      <li><a class="nav-link scrollto" href="#about">About Conference</a></li>
                      <li><a class="nav-link scrollto" href="#impdates">Important Deadlines</a></li>
+                     <li><a class="nav-link scrollto" href="https://drive.google.com/file/d/1h5cQpAVFi8nd5A8z6djf7c5HaMlFfgCh/view?usp=sharing" target="_blank">Conf. Schedule</a></li>
                      <li><a class="nav-link scrollto" href="#call_for_papers">Call For Paper</a></li>
                      <li><a class="nav-link scrollto" href="#tracks">Tracks</a></li>
                      <li><a href="#">Publication & Indexing</a></li>
                      <li><a class="nav-link scrollto" href="#for_authors">Paper Submission Guide</a></li>
                      <li><a class="nav-link scrollto" href="#register">Registration</a></li>
+                     <li><a class="nav-link scrollto" href="./assets/files/ICTA-24-Paper-Template.docx">Menuscript Template</a></li>
                   </ul>
                </li>
                <li><a class="nav-link scrollto" href="#speakers">Keynote Speakers</a></li>
@@ -131,10 +136,12 @@
                </li>
                <li><a class="nav-link scrollto" href="#contact">Contact Us</a></li>
             </ul>
+           
             <i class="bi bi-list mobile-nav-toggle"></i>
          </nav>
          <!-- .navbar -->
       </div>
+     
    </header>
    <!-- End Header -->
    
@@ -142,17 +149,38 @@
    <section id="rvp-hero" >
       <div class="text-center " >
          <!-- <h3>ICTA 2024</h3> -->
-         <h1>&nbsp;</h1> <h1>&nbsp;</h1> <h1>&nbsp;</h1> <h1>&nbsp;</h1>
-         <h2 class="text-white  fw-bold display-4">International Conference on </h2>
-         <h1 class="text-white fw-bold display-2"> Technological Advancements in Engineering</h1>
-         <h1 class="text-white fw-bold display-2"> (ICTA 2024) </h1>
+         <h1>&nbsp;</h1><h1>&nbsp;</h1>
+         <div class="d-inline p-4" style="background-color: #fff;">
+            <a href="index.html" >
+               <img src="assets/img/charusat_logo.png" alt="" class="img-fluid " style="width: 200px;">
+            </a>
+            <a href="https://uacg.bg/?l=2" target="_blank" >
+               <img src="assets/img/UACG_logo.png" alt="" class="img-fluid " style="width: 20px;">
+            </a> 
+         </div>
+         
+         <h2 class="text-white  fw-bold display-6">International Conference on </h2>
+         <h1 class="text-white fw-bold display-4"> Technological Advancements in Engineering</h1>
+         <h1 class="text-white fw-bold display-6"> (ICTA 2024) </h1>
          <h5 class="text-white">(Online)</h5>
          <h5 class="text-white d-inline " style="background-color: #f48632; line-height: 2rem; padding: 0 4px 0 4px;" >June 13-14, 2024</h5>
          <div class="text-white h5">
+            
             <h6 style="line-height: 2rem;">Jointly Organized by </h6>
-         <h5>Charotar University of Science and Technology (CHARUSAT)</h5>
-         <h5>University of Architecture, Civil Engineering and
-            Geodesy</h5> 
+            
+            <div class="d-inline p-2" style="background-color: #fff;">
+               <img src="./assets/img/charusat_logo.png" style="width: 200px;" class="logo pb-2" />
+            </div>   
+            <p class=" text-center   fw-bold h5" >
+               Charotar University of Science and Technology (CHARUSAT)
+            </p>
+
+            <div class="d-inline p-2 " style="background-color: #fff;">
+               <img src="./assets/img/UACG_logo.png" style="width: 25px;" class="logo pb-1 m-2 " />
+            </div>   
+            <p class="text-center fw-bold h5"> 
+               University of Architecture, Civil Engineering and Geodesy
+            </p> 
          </div>
          
          <!-- <div class="d-flex justify-content-center align-items-center">
@@ -177,6 +205,20 @@
       <!-- ======= About Section ======= -->
       <section id="about" class="about">
          <div class="container">
+            <div class="row">
+               <div class="col alert alert-danger">
+                  
+                  <strong>Important Note:</strong>
+                  <ul>
+                     <li>Instructions for Presenters (Parellal Presentations) : <a href="#" class="text-danger"> Click here</a></li>
+                     <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio distinctio velit alias aliquam dolor, soluta vel sed temporibus blanditiis eos.</li>
+                     <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio distinctio velit alias aliquam dolor, soluta vel sed temporibus blanditiis eos.</li>
+                     <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio distinctio velit alias aliquam dolor, soluta vel sed temporibus blanditiis eos.</li>
+                  </ul>
+
+               </div>
+            </div>
+
             <div class="section-title">
                <h2><span>ICTA 2024</span> </h2>
             </div>
@@ -445,30 +487,30 @@
                <div class="section-title ">
                   <h2>Conference <span>Tracks </span></h2>
                   <br />
-                  <h5 class="text-danger my-4  text-start">The scope of the conference may include following major
+                  <h5 class="text-danger pt-4 my-1  text-start">The scope of the conference may include following major
                      topics, but not limited to:</h5>
                </div>
                <div class="col">
                   <div class="row ">
 
                      <div class="col-12">
-                        <h5 class="fw-bold text-underline">Computer Engineering</h5>
+                        <h5 class="fw-bold bg-primary bg-gradient text-white p-2">Computer Engineering</h5>
                         <p>Education and E-Learning <span class="text-primary">||</span> Human-Computer Interaction (HCI) <span class="text-primary">||</span> Data Science and Big Data <span class="text-primary">||</span> Emerging Technologies and Innovations <span class="text-primary">||</span> Artificial Intelligence and Machine Learning <span class="text-primary">||</span> Quantum Computing and Cryptography <span class="text-primary">||</span> Edge and Fog Computing <span class="text-primary">||</span> Blockchain Technology and Applications <span class="text-primary">||</span> Cybersecurity and Privacy <span class="text-primary">||</span> Software Engineering and Development</p>
                      </div>
                      <div class="col-12">
-                        <h5 class="fw-bold text-underline">Electronics & Communication Engineering</h5>
+                        <h5 class="fw-bold bg-success bg-gradient text-white p-2">Electronics & Communication Engineering</h5>
                         <p>Wireless Communication System <span class="text-primary">||</span> Embedded Systems Design <span class="text-primary">||</span> Robotics <span class="text-primary">||</span> Internet of Things (IoT) <span class="text-primary">||</span> VLSI Design & Technology <span class="text-primary">||</span> Antenna Design & Measurement</p>
                      </div>
                      <div class="col-12">
-                        <h5 class="fw-bold text-underline">Electrical Engineering</h5>
+                        <h5 class="fw-bold bg-info text-white p-2">Electrical Engineering</h5>
                         <p>Power & Energy <span class="text-primary">||</span> Electronics & Control <span class="text-primary">||</span> Sustainable Electrical Energy System</p>
                      </div>
                      <div class="col-12">
-                        <h5 class="fw-bold text-underline">Civil Engineering</h5>
+                        <h5 class="fw-bold bg-primary text-white bg-gradient p-2">Civil Engineering</h5>
                         <p>Structural Engineering <span class="text-primary">||</span> Environmental Engineering <span class="text-primary">||</span> Construction Engineering & Management <span class="text-primary">||</span> Urban Planning <span class="text-primary">||</span> Water Resources Engineering <span class="text-primary">||</span> Transportation Engineering <span class="text-primary">||</span> Geotechnical Engineering</p>
                      </div>
                      <div class="col-12">
-                       <h5 class="fw-bold text-underline">Mechanical Engineering</h5> 
+                       <h5 class="fw-bold bg-success text-white bg-gradient p-2">Mechanical Engineering</h5> 
                        <p>Materials Processing and Characterization <span class="text-primary" >||</span> Design and Automation <span class="text-primary" >||</span> Thermal Science and Technology <span class="text-primary" >||</span> Industrial Engineering & Operations Management</p>
                      </div>
                      
@@ -478,9 +520,9 @@
                   </div>
                </div>
             </div>
-            <div class="row my-4">
+            <div class="row my-4 text-center">
                <div class="col">
-                  <a href="./assets/files/Conference Tracks_30_8_2023.pdf" target="_blank" class="h4" >Click to know more about conference sub-themes</a>
+                  <a href="./assets/files/Conference Tracks_30_8_2023.pdf" target="_blank" class="h4 p-2 bg-danger text-white text-wrap" >Click to know more about conference sub-themes</a>
                </div>
             </div>
          </div>
@@ -493,27 +535,30 @@
             </div>
             <div class="row">
                <div class="col">
-                  <p>The authors are invited to submit the Full Length Research/Review Papers. The papers will be double
-                     blind peer-reviewed and only the accepted and registered papers will be considered for presentation
-                     during the conference and publication in the proceedings. </p>
-                  <p>The organizers of ICTA 2024 regard plagiarism as serious professional misconduct. All submissions
-                     will be screened for plagiarism and when identiﬁed, the submissions will be rejected.</p>
-                  <p>The ICTA 2024 doesn’t encourage withdrawals after the paper is accepted.</p>
-                  <p>We use the CMT for submission of papers and the review process. Unregistered authors should ﬁrst
-                     create an account on CMT to log in.</p>
-                  <p>All submissions need to be submitted through the CMT using the link:
-                     <mark>https://cmt3.research.microsoft.com/User/Login?ReturnUrl=%2FMLCR2023</mark> </p>
+                  <ul>
+                     <li>The authors are invited to submit the Full Length Research/Review Papers. The papers will be double
+                        blind peer-reviewed and only the accepted and registered papers will be considered for presentation
+                        during the conference and publication in the proceedings. </li>
+                        <li>The organizers of ICTA 2024 regard plagiarism as serious professional misconduct. All submissions
+                           will be screened for plagiarism and when identiﬁed, the submissions will be rejected.</li>
+                        <li>The ICTA 2024 doesn’t encourage withdrawals after the paper is accepted.</li>   
+                        <li>We use the CMT for submission of papers and the review process. Unregistered authors should ﬁrst
+                           create an account on CMT to log in.</li>
+                        <li>All submissions need to be submitted through the <span class="fw-bold text-primary">CMT :</span>  <a class="fw-bold text-danger "  href="#">Link</a> </li>   
+                        <li>At least one of the authors of an accepted paper needs to register for the conference and to
+                           present the paper(s), through an Online Mode presentation.</li>
+                  </ul>
+                  
+                  
+                  <hr/>
+                 
                   <p><strong >NOTE:</strong> Acceptance of a full-length submission is strictly based on the reviewers’
                         comments.</p>
-                  <p>At least one of the authors of an accepted paper needs to register for the conference and to
-                     present the paper(s), through an Online Mode presentation.</p>
+                  <p></p>
                   <p>
-                     All manuscripts should be prepared in the following <strong>Paper Template.</strong> <mark>Click
-                        Here.</mark>
+                     Manuscript Template: <a  href = "./assets//files/ICTA-24-Paper-Template.docx" class="btn btn-danger btn-lg" download>Download</a>
                   </p>
-                  <p>
-                     <strong>For Registration:</strong> <mark>https://forms.gle/X9q3xNK4yhSbvjPW7</mark>
-                  </p>
+                 
                </div>
             </div>
          </div>
@@ -567,6 +612,12 @@
                            is no separate fee for publication.
                         </span>
                         
+                     </div>
+                     <div class="text-center">
+                        <br/>
+                      <a href="#" class="btn btn-success btn-lg">Click here for Registration </a>
+                      <br/><br/>
+
                      </div>
                      
                   </div>
@@ -722,7 +773,7 @@
             </div>
             <div class="row">
                <div class="col-12">
-                  <h4 class="alert alert-primary text-center"><strong>Chief Patrons</strong></h4>
+                  <h4 class="text-center bg-primary bg-gradient p-2 text-white"><strong>Chief Patrons</strong></h4>
                </div>
                <div class="col-lg-6 col-md-6 d-flex align-items-center justify-content-center aos-init aos-animate"
                   data-aos="fade-up" data-aos-delay="100">
@@ -751,7 +802,7 @@
             </div>
             <div class="row">
                <div class="col-12">
-                  <h4 class="alert alert-primary text-center"><strong> Patron</strong></h4>
+                  <h4 class="text-center bg-primary bg-gradient p-2 text-white"><strong> Patron</strong></h4>
                </div>
                <div class="col-lg-12 col-md-12 d-flex align-items-center justify-content-center aos-init aos-animate"
                   data-aos="fade-up" data-aos-delay="100">
@@ -768,7 +819,7 @@
             </div>
             <div class="row">
                <div class="col-12">
-                  <h4 class="alert alert-primary text-center"><strong> Co-Patron</strong></h4>
+                  <h4 class="text-center bg-primary bg-gradient p-2 text-white"><strong> Co-Patron</strong></h4>
                </div>
                <div class="col-lg-12 col-md-12 d-flex align-items-center justify-content-center aos-init aos-animate"
                   data-aos="fade-up" data-aos-delay="200">
@@ -785,7 +836,7 @@
             </div>
             <div class="row">
                <div class="col-12">
-                  <h4 class="alert alert-primary text-center"><strong> Conveners</strong></h4>
+                  <h4 class="text-center bg-primary bg-gradient p-2 text-white"><strong> Conveners</strong></h4>
                </div>
                <div class="col-lg-4 col-md-6 d-flex align-items-center justify-content-center aos-init aos-animate"
                   data-aos="fade-up" data-aos-delay="100">
@@ -827,7 +878,7 @@
             </div>
             <div class="row">
                <div class="col-12">
-                  <h4 class="alert alert-primary text-center"><strong>Co-Conveners</strong></h4>
+                  <h4 class="text-center bg-primary bg-gradient p-2 text-white"><strong>Co-Conveners</strong></h4>
                </div>
                <div class="col-lg-6 col-md-6 d-flex align-items-center justify-content-center aos-init aos-animate"
                   data-aos="fade-up" data-aos-delay="100">
@@ -859,7 +910,7 @@
             <div class="row">
                <div class="col-12">
                   <h4>
-                     <div class="alert alert-primary text-center"><strong>Coordinators</strong></div>
+                     <div class="text-center bg-primary bg-gradient p-2 text-white "><strong>Coordinators</strong></div>
                   </h4>
                </div>
                <div class="col-12">
