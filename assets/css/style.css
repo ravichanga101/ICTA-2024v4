@@ -1819,3 +1819,21 @@ section {
 .text-white {
   color: white;
 }
+
+/* Define the animation for the background and font color */
+@keyframes animateButton {
+  0% {
+    background-color: hwb(18 20% 4%);
+  }
+  50% {
+    background-color: #fff;
+  }
+  100% {
+    background-color: #1869b4;
+  }
+}
+
+/* Apply the animation to the button */
+.btn-animation {
+  animation: animateButton 0.8s infinite;
+}
