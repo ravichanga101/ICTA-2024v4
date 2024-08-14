@@ -437,7 +437,7 @@ section {
   color: #f48632;
   display: inline-block;
   text-transform: uppercase;
-  border-radius: 50px;
+  border-radius: 50px !important;
 }
 
 .section-title h2 span {
