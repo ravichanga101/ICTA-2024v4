@@ -1826,7 +1826,7 @@ section {
     background-color: hwb(18 20% 4%);
   }
   50% {
-    background-color: #fff;
+    background-color: #f30698;
   }
   100% {
     background-color: #1869b4;
@@ -1835,5 +1835,6 @@ section {
 
 /* Apply the animation to the button */
 .btn-animation {
-  animation: animateButton 0.8s infinite;
+  animation: animateButton 1.5s infinite;
+  transition: all 0.3s;
 }
