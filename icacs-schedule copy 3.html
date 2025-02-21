@@ -1,0 +1,454 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Conference Schedule</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css"
+    />
+    <style>
+      .timeline {
+        border-left: 3px solid #dee2e6;
+        padding-left: 20px;
+        position: relative;
+      }
+      .timeline-item {
+        margin-bottom: 30px;
+      }
+      .timeline-item::before {
+        content: "";
+        position: absolute;
+        left: -9px;
+        top: 0;
+        width: 15px;
+        height: 15px;
+        background-color: #fd7e14;
+        border-radius: 50%;
+      }
+      .card-img-top {
+        border-radius: 50%;
+        width: 50%;
+        margin: 0 auto;
+        display: block;
+      }
+      .card-body {
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <div
+      class="header-bg text-center py-2 text-white"
+      style="background-color: #fd7e14"
+    >
+      <div>
+        <a href="https://icacs.charusat.ac.in/">
+          <img
+            src="./assets/img/ICACS-2025-logo.png"
+            alt="logo"
+            style="
+              width: 100px;
+              background-color: #fff;
+              padding: 10px;
+              border-radius: 10px;
+            "
+          />
+        </a>
+      </div>
+      <br />
+      <h1>
+        International Conference on Artificial Intelligence, Communication
+        Technologies &amp; Smart Cities
+      </h1>
+      <h1 class="fw-bold">ICACS 2025</h1>
+    </div>
+
+    <div class="container mt-5">
+      <h3 class="text-center mb-5 p-2 bg-warning">Conference Schedule (Date: 01/03/2025)</h3>
+      <div class="timeline">
+            <div class="timeline-item">
+              <div class="alert alert-danger">
+                <h4>09.30 AM to 9.45 AM - Inaugural Ceremony</h4>
+                <p>Introductory remarks by Dr. R. V. Upadhyay, Honorable Provost, CHARUSAT</p>
+              </div>
+             
+            </div>
+            <div class="timeline-item ">
+              <h4 class="alert alert-warning">09.45 AM - 11.45 AM - Keynote Speeches</h4>
+              <div class="p-3 mb-2 bg-light text-dark">
+                <div class="row row-cols-1 g-4">
+                  <div class="accordion" id="accordionExample">
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="headingOne">
+                        <button
+                          class="accordion-button collapsed"
+                          type="button"
+                          data-bs-toggle="collapse"
+                          data-bs-target="#collapseOne"
+                          aria-expanded="true"
+                          aria-controls="collapseOne"
+                        >
+                          09.45 AM to 10.15 AM - Artificial Intelligence
+                        </button>
+                      </h2>
+                      <div
+                        id="collapseOne"
+                        class="accordion-collapse collapse"
+                        aria-labelledby="headingOne"
+                        data-bs-parent="#accordionExample"
+                      >
+                        <div class="accordion-body">
+                          <div class="col">
+                            <div class="card h-100">
+                              <div class="card-body">
+                                <h5 class="card-title">09:45 AM - 10:15 AM</h5>
+                                <img src="./assets/img/keynote/Rajendra_IITb.jpg" alt="Dr. Rajendra M Sonar" class="rounded-circle" style="width: 100px; height: auto;  margin-right: 10px;">
+                                
+                                <p class="card-text">
+                                  Dr. Rajendra M Sonar (Professor, IIT Bombay)
+                                  <h6>"Making GenAI work for Intelligent Systems"</h6>
+                                  (Artificial Intelligence)
+                                </p>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="col">
+                            <div class="card h-100">
+                              <div class="card-body">
+                                <h5 class="card-title">10:15 AM - 10:45 AM</h5>
+                                <img src="./assets/img/keynote/Vishal275x275.jpg" alt="Mr. Vishal Jain" class="rounded-circle" style="width: 100px; height: auto;  margin-right: 10px;">
+                               
+                                <p class="card-text">
+                                  Mr. Vishal Jain (Director, Samatrix-Gurgaon)
+                                  <h6>"Effectiveness of Large Language Model (LLM) in Multidisciplinary Area"</h6>
+                                  (Artificial Intelligence)
+                                </p>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="headingTwo">
+                        <button
+                          class="accordion-button collapsed"
+                          type="button"
+                          data-bs-toggle="collapse"
+                          data-bs-target="#collapseTwo"
+                          aria-expanded="false"
+                          aria-controls="collapseTwo"
+                        >
+                          09.45 AM to 11.15 AM - Communication Technologies
+                        </button>
+                      </h2>
+                      <div
+                        id="collapseTwo"
+                        class="accordion-collapse collapse"
+                        aria-labelledby="headingTwo"
+                        data-bs-parent="#accordionExample"
+                      >
+                        <div class="accordion-body">
+                          <div class="col">
+                            <div class="card h-100">
+                              <div class="card-body">
+                                <h5 class="card-title">09:45 AM - 10:15 AM</h5>
+                                <img src="./assets/img/keynote/Dr-NLJN.jpg" alt="Dr. Rajendra M Sonar" class="rounded-circle" style="width: 100px; height: auto;  margin-right: 10px;">
+                                <p class="card-text">
+                                  Dr. Nilanjay Dey, 
+                                  Techno International New Town, Kolkata
+                                  <h6
+                                    >"The bigger, the better?"</h6
+                                  >
+                                  (Communication Technologies)
+                                </p>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="col">
+                            <div class="card h-100">
+                              <div class="card-body">
+                                <h5 class="card-title">10:15 AM - 10:45 AM</h5>
+                                <img src="./assets/img/keynote/aj1.jpg" alt="Amit sir" class="rounded-circle" style="width: 80px; height: auto;  margin-right: 10px;">
+                                <p class="card-text">
+                                  Dr. Amit Mahesh Joshi(Associate Professor, MNIT Jaipur)
+                                  <h6
+                                    >"Smart Healthcare Technologies Opportunities and
+                                    Challenges"</h6
+                                  >
+                                  (Communication Technologies)
+                                </p>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="col">
+                            <div class="card h-100">
+                              <div class="card-body">
+                                <h5 class="card-title">10:45 AM - 11:15 AM</h5>
+                                <img src="./assets/img/keynote/Dr.%20Joao%20Soares.jpg" alt="js" class="rounded-circle" style="width: 100px; height: auto;  margin-right: 10px;">
+                                <p class="card-text">
+                                  Dr. Joao Soares(ISEP, Portugal)
+                                  <h6
+                                    >"Evolutionary Computation for Complex Energy
+                                    Problems"</h6
+                                  >
+                                  (Communication Technologies)
+                                </p>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="headingThree">
+                        <button
+                          class="accordion-button collapsed"
+                          type="button"
+                          data-bs-toggle="collapse"
+                          data-bs-target="#collapseThree"
+                          aria-expanded="false"
+                          aria-controls="collapseThree"
+                        >
+                          09.45 AM to 11.15 AM - Smart Cities
+                        </button>
+                      </h2>
+                      <div
+                        id="collapseThree"
+                        class="accordion-collapse collapse"
+                        aria-labelledby="headingThree"
+                        data-bs-parent="#accordionExample"
+                      >
+                        <div class="accordion-body">
+                          <div class="col">
+                            <div class="card h-100">
+                              <div class="card-body">
+                                <h5 class="card-title">09:45 AM - 10:15 AM</h5>
+                                <img src="./assets/img/keynote/Vasant_IITD.jpg" alt="VM" class="rounded-circle" style="width: 100px; height: auto;  margin-right: 10px;">
+                                <p class="card-text">
+                                  Dr. Vasant Matsagar, 
+                                  Professor, IIT Delhi
+                                  <h6
+                                    >"Exploring Contemporary Themes in Smart Cities: A
+                                    Structural Engineering Perspective"</h6
+                                  >
+                                  (Smart Cities)
+                                </p>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="col">
+                            <div class="card h-100">
+                              <div class="card-body">
+                                <h5 class="card-title">10:15 AM - 10:45 AM</h5>
+                                <img src="./assets/img/keynote/vs.jpg" alt="vs" class="rounded-circle" style="width: 100px; height: auto;  margin-right: 10px;">
+                                <p class="card-text">
+                                  Venkata Santosh Kumar (Associate Professor, IIT Bombay)
+                                  <h6
+                                    >"Intelligent Construction - How AI/ML are changing
+                                    the landscape of construction and infrastructure
+                                    development"</h6
+                                  >
+                                  (Smart Cities)
+                                </p>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="col">
+                            <div class="card h-100">
+                              <div class="card-body">
+                                <h5 class="card-title">10:45 AM - 11:15 AM</h5>
+                                <img src="./assets/img/keynote/saiful.webp" alt="sm" class="rounded-circle" style="width: 100px; height: auto;  margin-right: 10px;">
+                                <p class="card-text">
+                                  Dr. Saiful Amri Mazlan(Professor, UTM, Malaysia)
+                                  <h6
+                                    >"Unveiling the world of magnetorheological
+                                    materials"</h6
+                                  >
+                                  (Smart Cities)
+                                </p>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                 
+                </div>
+              </div>
+            </div>
+            <div class="timeline-item">
+              <h4 class="alert alert-info">11:45 AM - 12:45 AM - Lunch Break</h4>
+              <!-- <p>Topic: "Emerging Trends in AI"</p> -->
+            </div>
+            <!-- <div class="timeline-item">
+              <h4>1:00 PM - Lunch Break</h4>
+            </div> -->
+            <div class="timeline-item">
+              <h4 class="alert alert-danger">12:45 PM - 2:45 PM - Parallel Presentations for Tracks 01, 02, and 03</h4>
+              <div class="p-3 mb-2 bg-light text-dark">
+                <div class="row row-cols-1 g-4">
+                  <div class="col">
+                    <div class="card h-100">
+                      <div class="card-body">
+                        <div class="accordion" id="paperAccordion">
+                          <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingOne">
+                              <button
+                                class="accordion-button collapsed"
+                                type="button"
+                                data-bs-toggle="collapse"
+                                data-bs-target="#collapseOneAI"
+                                aria-expanded="true"
+                                aria-controls="collapseOneAI"
+                              >
+                                Track 1: Artificial Intelligence
+                              </button>
+                            </h2>
+                            <div
+                              id="collapseOneAI"
+                              class="accordion-collapse collapse "
+                              aria-labelledby="headingOne"
+                              data-bs-parent="#paperAccordion"
+                            >
+                              <div class="accordion-body">
+                                <ul class="list-group">
+                                  <li class="list-group-item">
+                                    <h5>
+                                      Deep Learning in Natural Language
+                                      Processing
+                                    </h5>
+                                    <p>
+                                      Presenter: Dr. Michael Johnson, AI
+                                      Research Institute
+                                    </p>
+                                  </li>
+                                  <li class="list-group-item">
+                                    <h5>Reinforcement Learning for Robotics</h5>
+                                    <p>
+                                      Presenter: Sarah Lee, Ph.D. Candidate,
+                                      Robotics Lab
+                                    </p>
+                                  </li>
+                                </ul>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingTwo">
+                              <button
+                                class="accordion-button collapsed"
+                                type="button"
+                                data-bs-toggle="collapse"
+                                data-bs-target="#collapseTwoCT"
+                                aria-expanded="false"
+                                aria-controls="collapseTwoCT"
+                              >
+                                Track 2: Communication
+                                Technologies
+                              </button>
+                            </h2>
+                            <div
+                              id="collapseTwoCT"
+                              class="accordion-collapse collapse"
+                              aria-labelledby="headingTwo"
+                              data-bs-parent="#paperAccordion"
+                            >
+                              <div class="accordion-body">
+                                <ul class="list-group">
+                                  <li class="list-group-item">
+                                    <h5>
+                                      Blockchain for Secure IoT Communications
+                                    </h5>
+                                    <p>
+                                      Presenter: Dr. Alex Wong, Cybersecurity
+                                      Solutions Inc.
+                                    </p>
+                                  </li>
+                                  <li class="list-group-item">
+                                    <h5>
+                                      AI-Powered Intrusion Detection Systems
+                                    </h5>
+                                    <p>
+                                      Presenter: Emma Garcia, Security
+                                      Researcher
+                                    </p>
+                                  </li>
+                                </ul>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingThree">
+                              <button
+                                class="accordion-button collapsed"
+                                type="button"
+                                data-bs-toggle="collapse"
+                                data-bs-target="#collapseThSC"
+                                aria-expanded="false"
+                                aria-controls="collapseThSC"
+                              >
+                                Track 3: Smart Cities
+                              </button>
+                            </h2>
+                            <div
+                              id="collapseThSC"
+                              class="accordion-collapse collapse"
+                              aria-labelledby="headingThree"
+                              data-bs-parent="#paperAccordion"
+                            >
+                              <div class="accordion-body">
+                                <ul class="list-group">
+                                  <li class="list-group-item">
+                                    <h5>
+                                      Smart Traffic Management Systems
+                                    </h5>
+                                    <p>
+                                      Presenter: Dr. Alex Wong, Cybersecurity
+                                      Solutions Inc.
+                                    </p>
+                                  </li>
+                                  <li class="list-group-item">
+                                    <h5>
+                                      AI-Powered Intrusion Detection Systems
+                                    </h5>
+                                    <p>
+                                      Presenter: Emma Garcia, Security
+                                      Researcher
+                                    </p>
+                                  </li>
+                                </ul>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="timeline-item">
+              <h4 class="alert alert-info">02:45 PM - 03:00 PM  - Short Break</h4>
+            </div>
+            <div class="timeline-item">
+              <h4 class="alert alert-success" >03:00 PM - 03:30 PM  - Valedictory Session</h4>
+            </div>
+      </div>
+    </div>
+
+    <footer class="bg-light text-center py-3 mt-5">
+      <p>&copy; 2025 Conference. All rights reserved.</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
