@@ -3755,6 +3755,62 @@ The conference's objective is to advance research and development in various sec
          </div>
       </section>
       
+      <!-- Add the modal structure at the end of the body -->
+      <div class="modal fade" id="scheduleModal" tabindex="-1" aria-labelledby="scheduleModalLabel" aria-hidden="true">
+         <div class="modal-dialog">
+           <div class="modal-content">
+             <div class="modal-header">
+               <h5 class="modal-title" id="scheduleModalLabel">ICACS 2025 Conference Schedule</h5>
+               <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+             </div>
+             <div class="modal-body">
+               <p>Click the button below to view the full ICACS 2025 conference schedule:</p>
+               <a href="https://icacs.charusat.ac.in/icacs-schedule.html" target="_blank" class="btn btn-danger">View Full Schedule</a>
+             </div>
+             <div class="modal-footer">
+               <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+             </div>
+           </div>
+         </div>
+       </div>
+       
+       <!-- Add the script to trigger the modal on page load -->
+       <script>
+         window.onload = function() {
+           var myModal = new bootstrap.Modal(document.getElementById('scheduleModal'), {
+             keyboard: false
+           });
+           myModal.show();
+         };
+       </script>
+       
+       <!-- Add the sticky ticker -->
+       <div class="sticky-ticker">
+         <a href="https://icacs.charusat.ac.in/icacs-schedule.html" target="_blank" class="btn btn-warning fw-bold">View Full Schedule</a>
+       </div>
+       
+       <!-- Add the CSS for the sticky ticker -->
+       <style>
+         .sticky-ticker {
+           position: fixed;
+           top: 50%;
+           right: 0;
+           transform: translateY(-50%);
+           z-index: 1000;
+           background-color: #ffc107;
+           padding: 10px;
+           border-radius: 5px 0 0 5px;
+           box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+         }
+         .sticky-ticker a {
+           color: #000;
+           text-decoration: none;
+         }
+         .sticky-ticker a:hover {
+           text-decoration: underline;
+         }
+       </style>
+       
    </main>
    <!-- End #main -->
    <!-- ======= Footer ======= -->
