@@ -3759,13 +3759,17 @@ The conference's objective is to advance research and development in various sec
       <div class="modal fade" id="scheduleModal" tabindex="-1" aria-labelledby="scheduleModalLabel" aria-hidden="true">
          <div class="modal-dialog">
            <div class="modal-content">
-             <div class="modal-header">
-               <h5 class="modal-title" id="scheduleModalLabel">ICACS 2025 Conference Schedule</h5>
-               <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+             <div class="modal-header text-center">
+               <div class="w-100">
+                 <img src="./assets/img/ICACS-2025-logo.png" alt="logo" style="width: 70px; display: block; margin: 0 auto;">
+                 <h5 class="modal-title mt-3" id="scheduleModalLabel">ICACS 2025 Conference Schedule</h5>
+               </div>
+               <!-- <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button> -->
              </div>
-             <div class="modal-body">
-               <p>Click the button below to view the full ICACS 2025 conference schedule:</p>
-               <a href="https://icacs.charusat.ac.in/icacs-schedule.html" target="_blank" class="btn btn-danger">View Full Schedule</a>
+             <div class="modal-body text-center">
+               <!-- <p>Click the button below to view the full ICACS 2025 conference schedule: <a href="https://icacs.charusat.ac.in/icacs-schedule.html" target="_blank" class="btn btn-danger">View Full Schedule</a></p> -->
+               
+               <a href="https://icacs.charusat.ac.in/icacs-schedule.html" target="_blank" class="btn btn-danger ">View Full Schedule</a>
              </div>
              <div class="modal-footer">
                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
@@ -3808,6 +3812,11 @@ The conference's objective is to advance research and development in various sec
          }
          .sticky-ticker a:hover {
            text-decoration: underline;
+         }
+         .modal-header .w-100 {
+           display: flex;
+           flex-direction: column;
+           align-items: center;
          }
        </style>
        
